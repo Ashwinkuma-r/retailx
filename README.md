@@ -46,5 +46,8 @@ Null, datatype mismatch, pattern, outlier checks
 ### F1 & F2. Lakebridge Migration
 Logic transpiled into Spark SQL
 
+### Job Pipeline
+A Databricks Job pipeline was created to orchestrate the execution of Bronze, Silver, and Gold notebooks, representing production-style scheduling and dependency management.
+
 ## Notes
 Due to environment limitations, Oracle connectivity, Lakeflow UI, and DLT pipelines were simulated. The solution reflects real-world Databricks migration design.
